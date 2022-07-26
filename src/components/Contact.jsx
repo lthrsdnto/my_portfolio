@@ -15,7 +15,12 @@ function Contact() {
                 <span className="text-fuchsia-400">Open</span>.{" "}
               </h1>
               <p className="">Feel free to message me.</p>
-              <div className="mt-4 cursor-pointer inline-flex items-center py-2 px-4 text-md font-medium text-center bg-[#0A1929] hover:text-[#64FFDA] rounded-2xl hover:scale-105 hover:rounded-none duration-200 ease-in-out">
+              <div onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1l21w3fISdhaYni5fTXq0XafyUq1bNkkd/view?usp=sharing",
+                    "_blank"
+                  )
+                } className="mt-4 cursor-pointer inline-flex items-center py-2 px-4 text-md font-medium text-center bg-[#0A1929] hover:text-[#64FFDA] rounded-2xl hover:scale-105 hover:rounded-none duration-200 ease-in-out">
                 Resume
               </div>
             </div>
