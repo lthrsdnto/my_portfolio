@@ -21,7 +21,7 @@ function Contact() {
                     "_blank"
                   )
                 } className="mt-4 cursor-pointer inline-flex items-center py-2 px-4 text-md font-medium text-center bg-[#0A1929] hover:text-[#64FFDA] rounded-2xl hover:scale-105 hover:rounded-none duration-200 ease-in-out">
-                Resume
+                Download my CV
               </div>
             </div>
           </div>
