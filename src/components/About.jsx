@@ -14,7 +14,7 @@ function About({ textEnter, textLeave }) {
         </motion.h1>
       </div>
       <div className="flex flex-wrap gap-8 text-gray-700 dark:text-white p-8 md:p-0">
-        <div className="flex flex-1 md:basis-2/4 basis-full bg-group bg-cover bg-center h-[400px] rounded-full border-2 border-indigo-900 "></div>
+        <div className="flex flex-1 md:basis-2/4 basis-full bg-group bg-contain bg-no-repeat bg-center h-[300px] rounded-full border-2 border-indigo-900 dark:border-none"></div>
         <div className="flex flex-1 md:basis-1/4 basis-full flex-col gap-4 p-4 items-center justify-center rounded-bl-3xl">
           <motion.div
             className="hover:cursor-none "
@@ -44,10 +44,10 @@ function About({ textEnter, textLeave }) {
               </p>
             </motion.div>
           </div>
-          <div className="flex flex-1 md:basis-2/4 basis-full bg-designing bg-cover bg-center h-[400px] rounded-full border-2 border-indigo-900 "></div>
+          <div className="flex flex-1 md:basis-2/4 basis-full bg-designing bg-contain bg-no-repeat bg-center h-[300px] rounded-full border-2 border-indigo-900 dark:border-none"></div>
         </div>
 
-        <div className="flex flex-1 md:basis-2/4 basis-full bg-team bg-cover bg-center h-[400px] rounded-full border-2 border-indigo-900 "></div>
+        <div className="flex flex-1 md:basis-2/4 basis-full bg-team bg-contain bg-no-repeat bg-center h-[300px] rounded-full border-2 border-indigo-900 dark:border-none"></div>
         <div className="flex flex-1 md:basis-1/4 basis-full flex-col gap-4 p-4 items-center justify-center rounded-tl-3xl">
           <motion.div
             className="hover:cursor-none "
