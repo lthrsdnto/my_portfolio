@@ -17,7 +17,7 @@ function Projects({ textEnter, textLeave }) {
           {"<"}Projects{"/>"}
         </motion.h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center p-4 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 place-items-center p-4 mx-auto">
         <div className="bg-gray-400 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-indigo-900 border-2 dark:border-none">
           <img
             src={splashy}
@@ -25,7 +25,7 @@ function Projects({ textEnter, textLeave }) {
             className="object-fit w-full h-3/5 object-center py-4 px-6  duration-200 ease-linear"
           />
           <div className="dark:text-white text-gray-700 w-4/5 mx-auto ">
-            <div className="flex flex-wrap text-white">
+            <div className="flex flex-wrap text-white gap-2">
               <span className="bg-[#0A1929] hover:text-[#64FFDA] text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
                 REACT
               </span>
@@ -35,9 +35,7 @@ function Projects({ textEnter, textLeave }) {
               <span className="bg-[#0A1929] hover:text-[#64FFDA] text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
                 AXIOS
               </span>
-              <span className="bg-[#0A1929] hover:text-[#64FFDA] text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
-                UNSPLASH API
-              </span>
+          
             </div>
             <h3 className="text-center text-xl py-4 font-bold">Splashy.</h3>
             <p className="text-left text-md whitespace-normal h-24 overflow-auto">
@@ -74,7 +72,7 @@ function Projects({ textEnter, textLeave }) {
             className="object-fit w-full h-3/5 object-center py-4 px-6  duration-200 ease-linear"
           />
           <div className=" dark:text-white text-gray-700 w-4/5 mx-auto ">
-            <div className="flex flex-wrap text-white">
+            <div className="flex flex-wrap text-white gap-2">
               <span className="bg-[#0A1929]  hover:text-[#64FFDA] text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
                 REACT
               </span>
