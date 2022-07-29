@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import bateman from "../assets/bateman.gif";
+import giphy from "../assets/giphy.gif";
 
 function FrontOfCard() {
   return (
@@ -26,7 +26,7 @@ function FrontOfCard() {
 function BackOfCard() {
   return (
     <div className="absolute inset-0 w-full h-full flex justify-center items-center bg-black transition-all z-10 card-back">
-      <img src={bateman} alt="" />
+      <img src={giphy} alt="" />
     </div>
   );
 }
