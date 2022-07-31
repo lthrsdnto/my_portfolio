@@ -39,12 +39,12 @@ function Form() {
   };
 
   return (
-    <div className="w-4/5 p-4 relative" id="custom-target">
+    <div className="w-4/5 p-4 relative " id="custom-target">
       <form ref={form} onSubmit={sendEmail}>
-        <div className="mb-6">
+        <div className="mb-6 ">
           <label
             htmlFor="email"
-            className="block mb-2 text-sm font-medium text-white"
+            className="block mb-2 text-sm font-medium text-gray-700 dark:text-white"
           >
             Your name
           </label>
@@ -60,7 +60,7 @@ function Form() {
         <div className="mb-6">
           <label
             htmlFor="email"
-            className="block mb-2 text-sm font-medium text-white"
+            className="block mb-2 text-sm font-medium text-gray-700 dark:text-white"
           >
             Your email
           </label>
@@ -76,7 +76,7 @@ function Form() {
         <div className="mb-6">
           <label
             htmlFor="message"
-            className="block mb-2 text-sm font-medium text-white"
+            className="block mb-2 text-sm font-medium text-gray-700 dark:text-white"
           >
             Your message
           </label>
@@ -92,7 +92,7 @@ function Form() {
         <button
           type="submit"
           value="Send"
-          className="inline-flex items-center py-2 px-4 text-md font-medium text-center bg-[#0A1929] hover:text-[#64FFDA] rounded-2xl hover:scale-105 hover:rounded-none duration-200 ease-in-out"
+          className="text-white inline-flex items-center py-2 px-4 text-md font-medium text-center bg-[#0A1929] hover:text-[#64FFDA] rounded-2xl hover:scale-105 hover:rounded-none duration-200 ease-in-out"
         >
           Submit
         </button>
