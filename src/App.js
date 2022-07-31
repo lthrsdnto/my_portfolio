@@ -4,8 +4,7 @@ import Projects from "./components/Projects";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import About from "./components/About";
-import { FaCloudMoon } from "react-icons/fa";
-import { FaCloudSun } from "react-icons/fa";
+import { FaCloudMoon, FaCloudSun } from "react-icons/fa";
 import { motion } from "framer-motion";
 import "./App.css";
 
@@ -75,24 +74,25 @@ function App() {
 
   return (
     <>
-      <button
+      <motion.button
         type="button"
         onClick={handleThemeSwitch}
-        className="fixed z-10 p-4 rounded-md hover:animate-pulse border-none"
+        className="fixed z-10 p-4 rounded-md hover:animate-pulse border-none focus-none"
+        whileTap={{ scale: 0.5 }}
       >
         {theme === "dark" ? (
-          <FaCloudSun className="w-16 h-16 text-yellow-400" />
+          <FaCloudSun className="w-8 h-8 text-yellow-400 border-none focus-none" />
         ) : (
-          <FaCloudMoon className="w-16 h-16 text-indigo-400" />
+          <FaCloudMoon className="w-8 h-8 text-indigo-400 border-none focus-none" />
         )}
-      </button>
+      </motion.button>
       <motion.div
         className="cursor"
         variants={variants}
         animate={cursorVariant}
       />
       <div
-        className="App bg-stone-50 dark:bg-slate-900 min-h-screen"
+        className="App bg-stone-100 dark:bg-slate-900"
         initial={{ opacity: 0 }}
         whileinview={{ opacity: 1 }}
         viewport={{ once: true }}
