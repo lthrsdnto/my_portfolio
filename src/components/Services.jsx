@@ -1,48 +1,64 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
-import { DiMongodb } from "react-icons/di";
-import { DiNodejs } from "react-icons/di";
-import { DiPhp } from "react-icons/di";
-import { DiBootstrap } from "react-icons/di";
-import { SiMysql } from "react-icons/si";
-import { DiGithub } from "react-icons/di";
+import { SiTailwindcss, SiMysql } from "react-icons/si";
+import { DiNodejs, DiGithub, DiPhp } from "react-icons/di";
 import { motion } from "framer-motion";
 
 const logos = [
-  <FaReact
-    className="w-16 h-16 text-white hover:text-[#64FFDA] duration-200 ease-linear"
-    alt="React"
-  />,
-  <SiTailwindcss
-    className="w-16 h-16 text-white hover:text-[#64FFDA] duration-200 ease-linear"
-    alt="Tailwindcss"
-  />,
-  <DiGithub
-    className="w-16 h-16 text-white hover:text-[#64FFDA] duration-200 ease-linear"
-    alt="Github"
-  />,
-
-  <DiNodejs
-    className="w-16 h-16 text-white hover:text-[#64FFDA] duration-200 ease-linear"
-    alt="Nodejs"
-  />,
-  <DiPhp
-    className="w-16 h-16 text-white hover:text-[#64FFDA] duration-200 ease-linear"
-    alt="PHP"
-  />,
-  <DiBootstrap
-    className="w-16 h-16 text-white hover:text-[#64FFDA] duration-200 ease-linear"
-    alt="Bootstrap"
-  />,
-  <DiMongodb
-    className="w-16 h-16 text-white hover:text-[#64FFDA] duration-200 ease-linear"
-    alt="Mongodb"
-  />,
-  <SiMysql
-    className="w-16 h-16 text-white hover:text-[#64FFDA] duration-200 ease-linear"
-    alt="MySQL"
-  />,
+  <>
+    <span className="bg-slate-300 hidden group-hover:block text-center rounded-md font-bold px-2 absolute hover:cursor-none">
+      REACT
+    </span>
+    <FaReact
+      className="w-12 h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
+      alt="React"
+    />{" "}
+  </>,
+  <>
+    <span className="bg-slate-300 hidden group-hover:block text-center rounded-md font-bold px-2 absolute hover:cursor-none">
+      TAILWINDCSS
+    </span>
+    <SiTailwindcss
+      className="w-12 h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
+      alt="Tailwindcss"
+    />
+  </>,
+  <>
+    <span className="bg-slate-300 hidden group-hover:block text-center rounded-md font-bold px-2 absolute hover:cursor-none">
+      GITHUB
+    </span>
+    <DiGithub
+      className="w-12 h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
+      alt="Github"
+    />
+  </>,
+  <>
+    <span className="bg-slate-300 hidden group-hover:block text-center rounded-md font-bold px-2 absolute hover:cursor-none">
+      NODEJS
+    </span>
+    <DiNodejs
+      className="w-12 h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
+      alt="Nodejs"
+    />
+  </>,
+  <>
+    <span className="bg-slate-300 hidden group-hover:block text-center rounded-md font-bold px-2 absolute hover:cursor-none">
+      PHP
+    </span>
+    <DiPhp
+      className="w-12 h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
+      alt="PHP"
+    />
+  </>,
+  <>
+    <span className="bg-slate-300 hidden group-hover:block text-center rounded-md font-bold px-2 absolute hover:cursor-none">
+      MYSQL
+    </span>
+    <SiMysql
+      className="w-12 h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
+      alt="MySQL"
+    />
+  </>,
 ];
 
 function Services({ textEnter, textLeave }) {
@@ -57,12 +73,12 @@ function Services({ textEnter, textLeave }) {
           {"<"}Technologies{"/>"}
         </motion.h1>
       </div>
-      <div className=" bg-gradient-to-r from-indigo-900 to-slate-900 py-4 mt-4">
-        <div className="grid grid-cols-3 md:grid-cols-4 grid-rows-3 md:grid-rows-2 mx-8 place-items-center gap-4 ">
+      <div className="rounded-2xl bg-gradient-to-r from-indigo-900 to-slate-900 py-4 mt-4">
+        <div className="grid grid-cols-3 md:grid-cols-3 md:grid-rows-2 mx-8 place-items-center gap-4 ">
           {logos.map((logo, key) => {
             return (
               <motion.div
-                className="logo"
+                className="logo group relative flex items-center justify-center"
                 key={key}
                 initial={{ opacity: 0, x: key % 2 === 0 ? -50 : 50, y: -50 }}
                 animate={{ opacity: 1, x: 0, y: 0 }}
