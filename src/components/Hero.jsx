@@ -27,8 +27,8 @@ function FrontOfCard() {
 function BackOfCard() {
   return (
     <div className="absolute inset-0 w-full h-full flex justify-center items-center bg-white transition-all z-10 card-back text-gray-700">
-    <div className="p-4 overflow-auto">
-    <p className="inline text-sm">Hey, you. You're finally awake.
+    <div className="p-4 ">
+    <p className="inline text-sm overflow-auto">Hey, you. You're finally awake.
 You were trying to cross the border, right?
 Walked right into that Imperial ambush, same as us, and that thief over there.
 Damn you Stormcloaks. Skyrim was fine until you came along.
@@ -74,7 +74,7 @@ function Hero() {
           </div>
         </div>
         <div className="md:basis-[45%] basis-full hidden md:block ">
-          <Spline scene="https://prod.spline.design/I02DuoS6NB58TCc0/scene.splinecode" />
+           <Spline scene="https://prod.spline.design/I02DuoS6NB58TCc0/scene.splinecode" />
         </div>
       </div>
     </div>
