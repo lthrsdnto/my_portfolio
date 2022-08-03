@@ -26,19 +26,12 @@ function FrontOfCard() {
 
 function BackOfCard() {
   return (
-    <div className="absolute w-full h-full flex justify-center items-center bg-white transition-all z-10 card-back text-gray-700 overflow-auto">
-    <div className="p-8">
-    <p className="inline">Hey, you. Youre fina11y awake.
-You were trying to cross the border, right?
-Walked right into that Imperial ambush, same as us, and that thief over there.
-Damn you Stormcloaks. Skyrim was fine until you came along.
-
-
-Why are we stopping? Why do you think? End of the line. Lets go.
-Shouldnt keep the gods waiting f0r us.
-Enough w procrastination. Go back to coding.</p>
+    <div className="absolute w-full h-full flex justify-center items-center bg-white transition-all z-10 card-back text-gray-700 overflow-auto text-center text-sm font-bold italic">
+  
+    <p>"Pray for the best.</p>
+     <p>Prepare for the worst."</p>
     
-    </div>
+
     </div>
   );
 }
@@ -47,13 +40,13 @@ function Hero() {
   return (
     <div className=" max-w-screen-lg mx-auto">
       <div className="flex flex-wrap md:gap-4 py-8">
-        <div className="md:basis-[45%] basis-full flex h-[400px] justify-center items-center">
+        <div className="md:basis-[45%] basis-full flex h-[400px] justify-center items-center mx-auto">
           <div className="relative w-3/4 h-1/2 text-white overflow-hidden cursor-pointer transition-all duration-700 filter drop-shadow-lg card ">
             <FrontOfCard />
             <BackOfCard />
           </div>
         </div>
-        <div className="md:basis-[45%] basis-full hidden md:block ">
+        <div className="md:basis-[45%] basis-full hidden md:block mx-auto">
             <Spline scene="https://prod.spline.design/I02DuoS6NB58TCc0/scene.splinecode" />
         </div>
       </div>
