@@ -14,7 +14,7 @@ function FrontOfCard() {
       </div>
       <div className="text-center my-12 font-bold">
         <h1 className="text-xl">LUTHER SEDANTO</h1>
-        <h2 className="text-lg">WEB DEVELOPER</h2>
+        <h2 className="text-lg">FRONT-END DEV</h2>
       </div>
       <p className="text-xs font-medium p-4">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
