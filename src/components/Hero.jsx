@@ -28,9 +28,8 @@ function BackOfCard() {
   return (
     <div className="absolute w-full h-full flex justify-center items-center bg-white transition-all z-10 card-back text-gray-700 overflow-auto text-center text-sm font-bold italic">
   
-    <p>"Pray for the best.</p>
-    <br />
-     <p>Prepare for the worst."</p>
+    <p>"Pray for the best. Prepare for the worst."</p>
+
     
 
     </div>
