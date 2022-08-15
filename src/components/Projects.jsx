@@ -207,14 +207,14 @@ function Projects({ textEnter, textLeave }) {
                 onClick={() =>
                   window.open("https://netlok.vercel.app/", "_blank")
                 }
-                className="line-through cursor-pointer inline-flex items-center py-2 px-4 text-md font-medium text-center bg-[#0A1929] text-white hover:text-[#64FFDA] rounded-2xl hover:scale-105 hover:rounded-none duration-200 ease-in-out"
+                className="cursor-pointer inline-flex items-center py-2 px-4 text-md font-medium text-center bg-[#0A1929] text-white hover:text-[#64FFDA] rounded-2xl hover:scale-105 hover:rounded-none duration-200 ease-in-out"
               >
                 LIVE
                 <BiRightArrow className="ml-2" />
               </div>
 
               <FaGithub
-                className="line-through w-10 h-10 cursor-pointer hover:text-[#64FFDA] duration-200 ease-in-out"
+                className="w-10 h-10 cursor-pointer hover:text-[#64FFDA] duration-200 ease-in-out"
                 onClick={() =>
                   window.open("https://github.com/muhay007/netlok", "_blank")
                 }
