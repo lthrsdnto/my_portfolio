@@ -14,7 +14,7 @@ function FrontOfCard() {
       </div>
       <div className="text-center my-12 font-bold">
         <h1 className="text-xl">LUTHER SEDANTO</h1>
-        <h2 className="text-lg">FRONT-END DEV</h2>
+        <h2 className="text-lg">WEB DEVELOPER</h2>
       </div>
       <p className="text-xs font-medium p-4">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
@@ -29,6 +29,7 @@ function BackOfCard() {
     <div className="absolute w-full h-full flex justify-center items-center bg-white transition-all z-10 card-back text-gray-700 overflow-auto text-center text-sm font-bold italic">
   
     <p>"Pray for the best.</p>
+    <br />
      <p>Prepare for the worst."</p>
     
 
