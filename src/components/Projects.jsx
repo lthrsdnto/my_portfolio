@@ -91,11 +91,8 @@ function Projects({ textEnter, textLeave }) {
             </div>
             <h3 className="text-center text-xl py-4 font-bold">imxt</h3>
             <p className="text-left text-md whitespace-normal h-24 overflow-auto scrollbar">
-              OCR online application that can text-to-image conversion. I
-              produced this project since occasionally I wanted to run a
-              particular code that I YT video was watched, but there was no
-              repository, so I just screenshot it. rather than typing it,
-              convert it and copy it.
+              OCR online application that can image-to-text conversion. If there was no
+              repository, I just screenshot, convert and copyMe. It is helpful sometimes.
             </p>
             <br />
             <div className="flex justify-between py-4">
@@ -150,14 +147,13 @@ function Projects({ textEnter, textLeave }) {
               <span class="dark:text-red-100 text-red-300">
                 Development of Supply Chain with Stock Monitoring for TEA101
               </span>
-              . will clean because of spaghetti codes and will improve. i chose
-              not to upload too many bugs..
+              . This is my capstone project, am trying to improve it. Will be available soon..
             </p>
             <br />
             <div className="flex justify-between py-4">
               <div
-                // onClick={() => window.open("", "_blank")}
-                className="line-through cursor-pointer inline-flex items-center py-2 px-4 text-md font-medium text-center bg-[#0A1929] text-white hover:text-[#64FFDA] rounded-2xl hover:scale-105 hover:rounded-none duration-200 ease-in-out"
+                // onClick={() => window.open("http://tea101.rf.gd/", "_blank")}
+                className="cursor-pointer inline-flex items-center py-2 px-4 text-md font-medium text-center bg-[#0A1929] text-white hover:text-[#64FFDA] rounded-2xl hover:scale-105 hover:rounded-none duration-200 ease-in-out"
               >
                 LIVE
                 <BiRightArrow className="ml-2" />
