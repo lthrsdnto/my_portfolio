@@ -17,7 +17,7 @@ function Contact() {
             <div
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1h04O-bL7CUp2c7Tsd08gA8E3J-r_gGf8/view?usp=sharing",
+                  "https://drive.google.com/file/d/1XaCIYEIl2oikuvIiSwWBGUmlQ9ge-_5H/view?usp=sharing",
                   "_blank"
                 )
               }
