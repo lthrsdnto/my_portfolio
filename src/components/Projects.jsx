@@ -152,7 +152,7 @@ function Projects({ textEnter, textLeave }) {
             <br />
             <div className="flex justify-between py-4">
               <div
-                // onClick={() => window.open("http://tea101.rf.gd/", "_blank")}
+                onClick={() => window.open("http://tea101.rf.gd/", "_blank")}
                 className="cursor-pointer inline-flex items-center py-2 px-4 text-md font-medium text-center bg-[#0A1929] text-white hover:text-[#64FFDA] rounded-2xl hover:scale-105 hover:rounded-none duration-200 ease-in-out"
               >
                 LIVE
