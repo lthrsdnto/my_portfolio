@@ -40,6 +40,9 @@ function Projects({ textEnter, textLeave }) {
               <span className="bg-[#0A1929] hover:text-[#64FFDA] text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
                 UNSPLASH_API
               </span>
+                <span className="bg-[#0A1929] hover:text-[#64FFDA] text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
+                FS-LIGHTBOX
+              </span>
             </div>
             <h3 className="text-center text-xl py-4 font-bold">splashy</h3>
             <p className="text-left text-md whitespace-normal h-24 overflow-auto scrollbar">
