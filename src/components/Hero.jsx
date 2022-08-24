@@ -6,7 +6,7 @@ function FrontOfCard() {
   return (
     <div className="absolute inset-0 w-full h-full bg-white transition-all duration-100 delay-200 z-20 hover:opacity-0 font-garamond text-center text-gray-700">
       <div className="flex justify-between pt-6 px-4">
-        <h1 className="font-bold text-lg">0000 000 0000 </h1>
+        <h1 className="font-bold text-lg">0951 755 1940</h1>
         <div className="flex flex-wrap flex-col">
           <h1 className="text-lg font-bold">DAY {"&"} NIGHT</h1>
           <p className="text-xs font-medium">{"< />"} ALL THE WAY</p>
@@ -17,8 +17,7 @@ function FrontOfCard() {
         <h2 className="text-lg">WEB DEVELOPER</h2>
       </div>
       <p className="text-xs font-medium p-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-        necessitatibus?
+        If you're not a good shot today, don't worry. There are other ways to be useful.
       </p>
     </div>
   );
@@ -27,11 +26,7 @@ function FrontOfCard() {
 function BackOfCard() {
   return (
     <div className="absolute w-full h-full flex justify-center items-center bg-white transition-all z-10 card-back text-gray-700 overflow-auto text-center text-sm font-bold italic">
-  
     <p>"Pray for the best. Prepare for the worst."</p>
-
-    
-
     </div>
   );
 }
