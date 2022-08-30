@@ -193,7 +193,7 @@ function Projects({ textEnter, textLeave }) {
               </span>
         
             </div>
-            <h3 className="text-center text-xl py-4 font-bold">tea101</h3>
+            <h3 className="text-center text-xl py-4 font-bold">brms</h3>
             <p className="text-left text-md whitespace-normal h-24 overflow-auto scrollbar">
               <span class="dark:text-red-100 text-red-300">
                 Book Record Management System
