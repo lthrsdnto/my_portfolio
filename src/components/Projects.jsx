@@ -3,6 +3,7 @@ import splashy from "../assets/splashy.png";
 import imxt from "../assets/imxt.png";
 import tea from "../assets/tea.png";
 import netlok from "../assets/netlok.png";
+import brms from "../assets/brms.png";
 import { FaGithub } from "react-icons/fa";
 import { BiRightArrow } from "react-icons/bi";
 import { motion } from "framer-motion";
