@@ -169,6 +169,54 @@ function Projects({ textEnter, textLeave }) {
             </div>
           </div>
         </div>
+
+  <div className="bg-gray-400 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-indigo-900 border-2 dark:border-none w-full">
+          <img
+            src={brms}
+            alt=""
+            className="object-fit w-full h-3/5 object-center py-4 px-6  duration-200 ease-linear"
+          />
+          <div className=" dark:text-white text-gray-700 w-4/5 mx-auto ">
+            <div className="flex text-white gap-2 items-center overflow-auto w-full py-2 scrollbar">
+              <span className="bg-[#0A1929]  hover:text-[#64FFDA] text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
+                PHP
+              </span>
+              <span className="bg-[#0A1929] hover:text-[#64FFDA] text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
+                MYSQL
+              </span>
+              <span className="bg-[#0A1929] hover:text-[#64FFDA] text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
+                BOOTSTRAP
+              </span>
+              <span className="bg-[#0A1929]  hover:text-[#64FFDA] text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
+                DATATABLES
+              </span>
+        
+            </div>
+            <h3 className="text-center text-xl py-4 font-bold">tea101</h3>
+            <p className="text-left text-md whitespace-normal h-24 overflow-auto scrollbar">
+              <span class="dark:text-red-100 text-red-300">
+                Book Record Management System
+              </span>
+              .Thesis group project for QCU library, learned alot in this project like the basic crud.
+            </p>
+            <br />
+            <div className="flex justify-between py-4">
+              <div
+                onClick={() => window.open("http://qculibrary.rf.gd/", "_blank")}
+                className="cursor-pointer inline-flex items-center py-2 px-4 text-md font-medium text-center bg-[#0A1929] text-white hover:text-[#64FFDA] rounded-2xl hover:scale-105 hover:rounded-none duration-200 ease-in-out"
+              >
+                LIVE
+                <BiRightArrow className="ml-2" />
+              </div>
+
+              <FaGithub
+                className="line-through w-10 h-10 cursor-pointer hover:text-[#64FFDA] duration-200 ease-in-out"
+                // onClick={() => window.open("", "_blank")}
+              />
+            </div>
+          </div>
+        </div>
+
         <div className="bg-gray-400 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-indigo-900 border-2 dark:border-none w-full">
           <img
             src={netlok}
