@@ -10,7 +10,7 @@ const logos = [
       REACT
     </span>
     <FaReact
-      className="w-12 h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
+      className="w-7 h-7 md:w-12 md:h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
       alt="React"
     />{" "}
   </>,
@@ -19,7 +19,7 @@ const logos = [
       TAILWINDCSS
     </span>
     <SiTailwindcss
-      className="w-12 h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
+      className="w-7 h-7 md:w-12 md:h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
       alt="Tailwindcss"
     />
   </>,
@@ -28,7 +28,7 @@ const logos = [
       GITHUB
     </span>
     <DiGithub
-      className="w-12 h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
+      className="w-7 h-7 md:w-12 md:h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
       alt="Github"
     />
   </>,
@@ -37,7 +37,7 @@ const logos = [
       NODEJS
     </span>
     <DiNodejs
-      className="w-12 h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
+      className="w-7 h-7 md:w-12 md:h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
       alt="Nodejs"
     />
   </>,
@@ -46,7 +46,7 @@ const logos = [
       PHP
     </span>
     <DiPhp
-      className="w-12 h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
+      className="w-7 h-7 md:w-12 md:h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
       alt="PHP"
     />
   </>,
@@ -55,7 +55,7 @@ const logos = [
       MYSQL
     </span>
     <SiMysql
-      className="w-12 h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
+      className="w-7 h-7 md:w-12 md:h-12 text-white hover:text-[#64FFDA] duration-200 ease-linear"
       alt="MySQL"
     />
   </>,
@@ -64,7 +64,7 @@ const logos = [
 function Services({ textEnter, textLeave }) {
   return (
     <div className="max-w-screen-lg mx-auto py-8 my-8 font-poppins">
-      <div className="dark:text-white text-4xl font-bold text-black pb-4 text-center flex items-center justify-center">
+      <div className="dark:text-white md:text-4xl text-2xl font-bold text-black pb-4 text-center flex items-center justify-center">
         <motion.h1
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
