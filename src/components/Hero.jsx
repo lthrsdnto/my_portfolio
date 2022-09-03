@@ -1,23 +1,25 @@
 import React from "react";
 import "../App.css";
+import giphy from "../assets/giphy.gif";
 import Spline from "@splinetool/react-spline";
 
 function FrontOfCard() {
   return (
     <div className="absolute inset-0 w-full h-full bg-white transition-all duration-100 delay-200 z-20 hover:opacity-0 font-garamond text-center text-gray-700">
       <div className="flex justify-between pt-6 px-4">
-        <h1 className="font-bold text-lg">0951 755 1940</h1>
+        <h1 className="font-bold md:text-lg text-xs">0951 755 1940</h1>
         <div className="flex flex-wrap flex-col">
-          <h1 className="text-lg font-bold">DAY {"&"} NIGHT</h1>
-          <p className="text-xs font-medium">{"< />"} ALL THE WAY</p>
+          <h1 className="md:text-lg text-xs font-bold">DAY {"&"} NIGHT</h1>
+          <p className="md:text-lg text-xs font-medium">{"< />"} ALL THE WAY</p>
         </div>
       </div>
       <div className="text-center my-12 font-bold">
-        <h1 className="text-xl">LUTHER SEDANTO</h1>
-        <h2 className="text-lg">WEB DEVELOPER</h2>
+        <h1 className="md:text-xl text-xs">LUTHER SEDANTO</h1>
+        <h2 className="md:text-lg text-xs">WEB DEVELOPER</h2>
       </div>
-      <p className="text-xs font-medium p-4">
-        If you're not a good shot today, don't worry. There are other ways to be useful.
+      <p className="text-xs font-medium p-2 absolute bottom-0 w-full text-center">
+        If you're not a good shot today, don't worry. There are other ways to be
+        useful.
       </p>
     </div>
   );
@@ -26,7 +28,7 @@ function FrontOfCard() {
 function BackOfCard() {
   return (
     <div className="absolute w-full h-full flex justify-center items-center bg-white transition-all z-10 card-back text-gray-700 overflow-auto text-center text-sm font-bold italic">
-    <p>"Pray for the best. Prepare for the worst."</p>
+      <img src={giphy} className="w-full h-full" alt="wew" />
     </div>
   );
 }
@@ -42,7 +44,7 @@ function Hero() {
           </div>
         </div>
         <div className="md:basis-[45%] basis-full hidden md:block mx-auto">
-            <Spline scene="https://prod.spline.design/I02DuoS6NB58TCc0/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/I02DuoS6NB58TCc0/scene.splinecode" />
         </div>
       </div>
     </div>
