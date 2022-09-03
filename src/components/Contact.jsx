@@ -9,18 +9,13 @@ function Contact() {
       <div className="flex flex-wrap gap-4 px-4 py-6 text-slate-900 dark:text-white">
         <div className="md:basis-[40%] basis-full flex flex-1 bg-gray-400 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 items-center justify-center flex-col border-2 border-indigo-900 dark:border-none">
           <div className="p-4">
-            <h1 className="text-4xl font-bold">
+            <h1 className="md:text-4xl text-2xl font-bold">
               My <span className="text-sky-400">inbox</span> is always{" "}
               <span className="text-fuchsia-400">Open</span>.{" "}
             </h1>
-            <p className="">Feel free to message me.</p>
+            <p className="md:text-lg text-sm">Feel free to message me.</p>
             <div
-              onClick={() =>
-                window.open(
-                  "",
-                  "_blank"
-                )
-              }
+              onClick={() => window.open("", "_blank")}
               className="text-white mt-4 cursor-pointer inline-flex items-center py-2 px-4 text-sm font-medium text-center bg-[#0A1929] hover:text-[#64FFDA] rounded-2xl hover:scale-105 hover:rounded-none duration-200 ease-in-out"
             >
               Resume
