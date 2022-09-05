@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div className="max-w-screen-lg mx-auto rounded-t-2xl text-center text-xl font-poppins text-white pt-8 mt-8">
       <div className="flex flex-wrap gap-4 px-4 py-6 text-slate-900 dark:text-white">
-        <div className="md:basis-[40%] basis-full flex flex-1 bg-gray-400 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 items-center justify-center flex-col border-2 border-indigo-900 dark:border-none">
+        <div className="md:basis-[40%] basis-full flex flex-1 bg-gray-400 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 items-center justify-center flex-col">
           <div className="p-4">
             <h1 className="md:text-4xl text-2xl font-bold">
               My <span className="text-sky-400">inbox</span> is always{" "}
@@ -22,7 +22,7 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div className="md:basis-[40%] basis-full flex flex-1 bg-gray-400 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 items-center justify-center flex-col border-2 border-indigo-900 dark:border-none">
+        <div className="md:basis-[40%] basis-full flex flex-1 bg-gray-400 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 items-center justify-center flex-col">
           <Form />
         </div>
       </div>
@@ -37,7 +37,10 @@ function Contact() {
           className="w-6 h-6 cursor-pointer hover:text-[#64FFDA] duration-200 ease-in-out"
           onClick={() => window.open("https://github.com/muhay007", "_blank")}
         />{" "}
-        | <p className="text-sm font-garamond">Made by 👽 Luther Sedanto</p>
+        |{" "}
+        <p className="md:text-sm text-xs font-garamond">
+          Made by 👽 Luther Sedanto
+        </p>
       </div>
     </div>
   );
