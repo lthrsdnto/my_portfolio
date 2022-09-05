@@ -22,9 +22,9 @@ module.exports = {
       backgroundImage: {
         bighead: "url('./assets/bighead.svg')",
         coding: "url('./assets/coding.svg')",
-        designing: "url('./assets/designing.svg')",
-        team: "url('./assets/team.svg')",
-        group: "url('./assets/group.svg')",
+        designing: "url('./assets/designing.png')",
+        team: "url('./assets/team.png')",
+        group: "url('./assets/group.png')",
       },
     },
   },
