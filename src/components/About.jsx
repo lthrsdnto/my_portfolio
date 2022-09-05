@@ -31,10 +31,10 @@ function About({ textEnter, textLeave }) {
         </h1>
       </div>
       <div className="flex flex-wrap gap-8 text-gray-700 dark:text-white p-8 md:p-0 text-sm md:text-lg">
-        <div className="flex flex-1 md:basis-2/4 basis-full bg-group bg-contain bg-no-repeat bg-center md:h-[300px] h-[200px] rounded-full border-2 border-indigo-900 dark:border-none"></div>
+        <div className="flex flex-1 md:basis-2/4 basis-full bg-group bg-contain bg-no-repeat bg-center md:h-[300px] h-[200px]"></div>
         <div className="flex flex-1 md:basis-1/4 basis-full flex-col gap-4 p-4 items-center justify-center rounded-bl-3xl">
           <div
-            className="hover:cursor-none "
+            className="hover:cursor-none md:text-left text-center"
             onMouseEnter={textEnter}
             onMouseLeave={textLeave}
           >
@@ -48,10 +48,10 @@ function About({ textEnter, textLeave }) {
           </div>
         </div>
 
-        <div className="flex flex-wrap-reverse md:flex-auto">
+        <div className="flex flex-wrap-reverse md:flex-auto gap-8">
           <div className="flex flex-1 md:basis-1/4 basis-full flex-col gap-4 p-4 items-center justify-center rounded-r-3xl">
             <div
-              className="hover:cursor-none "
+              className="hover:cursor-none md:text-left text-center"
               onMouseEnter={textEnter}
               onMouseLeave={textLeave}
             >
@@ -65,13 +65,13 @@ function About({ textEnter, textLeave }) {
               </FadeInWhenVisible>
             </div>
           </div>
-          <div className="flex flex-1 md:basis-2/4 basis-full bg-designing bg-contain bg-no-repeat bg-center md:h-[300px] h-[200px] rounded-full border-2 border-indigo-900 dark:border-none"></div>
+          <div className="flex flex-1 md:basis-2/4 basis-full bg-designing bg-contain bg-no-repeat bg-center md:h-[300px] h-[200px]"></div>
         </div>
 
-        <div className="flex flex-1 md:basis-2/4 basis-full bg-team bg-contain bg-no-repeat bg-center md:h-[300px] h-[200px] rounded-full border-2 border-indigo-900 dark:border-none"></div>
+        <div className="flex flex-1 md:basis-2/4 basis-full bg-team bg-contain bg-no-repeat bg-center md:h-[300px] h-[200px]"></div>
         <div className="flex flex-1 md:basis-1/4 basis-full flex-col gap-4 p-4 items-center justify-center rounded-tl-3xl">
           <div
-            className="hover:cursor-none "
+            className="hover:cursor-none md:text-left text-center"
             onMouseEnter={textEnter}
             onMouseLeave={textLeave}
           >
