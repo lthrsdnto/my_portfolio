@@ -7,17 +7,19 @@ function FrontOfCard() {
   return (
     <div className="absolute inset-0 w-full h-full bg-white transition-all duration-100 delay-200 z-20 hover:opacity-0 font-garamond text-center text-gray-700">
       <div className="flex justify-between pt-6 px-4">
-        <h1 className="font-bold md:text-lg text-xs">0951 755 1940</h1>
+        <h1 className="font-bold md:text-base text-sm">0951 755 1940</h1>
         <div className="flex flex-wrap flex-col">
-          <h1 className="md:text-lg text-xs font-bold">DAY {"&"} NIGHT</h1>
-          <p className="md:text-lg text-xs font-medium">{"< />"} ALL THE WAY</p>
+          <h1 className="md:text-lg text-base font-bold">DAY {"&"} NIGHT</h1>
+          <p className="md:text-base text-xs font-medium">
+            {"< />"} ALL THE WAY
+          </p>
         </div>
       </div>
-      <div className="text-center my-12 font-bold">
-        <h1 className="md:text-xl text-xs">LUTHER SEDANTO</h1>
-        <h2 className="md:text-lg text-xs">WEB DEVELOPER</h2>
+      <div className="text-center md:my-12 my-8 font-bold">
+        <h1 className="md:text-xl text-lg">LUTHER SEDANTO</h1>
+        <h2 className="md:text-lg text-base">WEB DEVELOPER</h2>
       </div>
-      <p className="text-xs font-medium p-2 absolute bottom-0 w-full text-center">
+      <p className="md:text-sm text-xs font-medium md:mb-2 mb-1 absolute bottom-0 w-full text-center">
         If you're not a good shot today, don't worry. There are other ways to be
         useful.
       </p>
